@@ -17,9 +17,6 @@ do
     done
 done
 
-echo "finish and exit the script."
-exit 1
-
 
 ###------------------------------------------------###
 ## COT training of full supervision
