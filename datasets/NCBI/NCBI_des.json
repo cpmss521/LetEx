@@ -1,0 +1,12 @@
+{
+    "task_type": [
+        "NER"
+    ],
+    "task_des": "extract disease entity from clinical records",
+    "ent_type": {
+        "Disease": "disease entity"
+    },
+    "eval": [
+        "Micro-F1"
+    ]
+}
