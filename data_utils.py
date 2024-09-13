@@ -14,10 +14,10 @@ class DatasetLoader(object):
         self.has_valid = has_valid
         self.few_shot =few_shot
         if llm:
-            self.train_path = f'k_shot/n_way_{few_shot}_shot_train_2.json' if few_shot else f'{self.dataset_name}_train_2.json'
-            self.cot_train_path = f'k_shot/n_way_{few_shot}_shot_train_COT_2.json' if few_shot else f'{self.dataset_name}_train_COT_2.json'
+            self.train_path = f'k-shots/n_way_{few_shot}_shot_train_2.json' if few_shot else f'{self.dataset_name}_train_2.json'
+            self.cot_train_path = f'k-shots/n_way_{few_shot}_shot_train_COT_2.json' if few_shot else f'{self.dataset_name}_train_COT_2.json'
         else:
-            self.train_path = f'k_shot/n_way_{few_shot}_shot_train_2.json' if few_shot else f'{self.dataset_name}_train.json'
+            self.train_path = f'k-shots/n_way_{few_shot}_shot_train_2.json' if few_shot else f'{self.dataset_name}_train.json'
 
     def load_from_json(self):
         data_files = {
