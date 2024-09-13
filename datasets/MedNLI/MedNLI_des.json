@@ -1,0 +1,12 @@
+{
+    "task_type": ["NLI"],
+    "task_des": "the task is to classify premise and hypothesis pair into one of the three labels: entailment, contradiction, or neutral",
+    "nli_type": {
+        "entailment": "entailment",
+        "contradiction": "contradiction",
+        "neutral": "neutral"
+    },
+    "eval": [
+        "accuracy"
+    ]
+}
