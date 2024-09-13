@@ -30,8 +30,6 @@ class TaskPrefixTrainer(Seq2SeqTrainer):
         super().__init__(**kwargs)
         self.alpha = alpha
         self.output_rationale = output_rationale
-        self.train_dataset = super().train_dataset
-        self.eval_dataset =  super().eval_dataset
 
 
 
